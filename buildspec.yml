@@ -1,0 +1,12 @@
+version: 0.01
+
+phases:
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling the Python code...
+  post_build:
+    commands:
+artifacts:
+  files:
+    - passwordGenerator.py
